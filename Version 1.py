@@ -1,7 +1,7 @@
 import random
 class RandNumbers:
     def __init__(self):
-
+        print("Hello")
         try:
             self.limit = int(input("How many numbers should be returned?: "))
             self.small = int(input("Enter the lowest number: "))
