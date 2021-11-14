@@ -2,6 +2,7 @@ import random
 class RandNumbers:
     def __init__(self):
         print("Hello")
+        print("This is a random number generator")
         try:
             self.limit = int(input("How many numbers should be returned?: "))
             self.small = int(input("Enter the lowest number: "))
